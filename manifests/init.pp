@@ -2,7 +2,7 @@
 #
 #INSTALL SKYPE ON DESKTOP
 #
-class bumblebee ($driver_name = "nvidia-current", $package_name = "bumblee-nvidia", $user = "root"){
+class bumblebee ($driver_name = "nvidia-current", $package_name = "bumblebee-nvidia", $user = "root"){
     #Install package
     package { $package_name: ensure   => installed,}
     
